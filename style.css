@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap');
+
+body ,html {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 12px;
+    background-color: #A7D2CB;
+    height: 100%;
+    font-weight: 700;
+}
+
+.container {
+    display: flex;
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+}
+
+.login-form {
+    height: 500px;
+    width: 430px;
+    padding: 0 35px;
+    background-color: #F9F9F9;
+    border: none;
+    border-radius: 10px;
+}
+.signup-form {
+    height: 600px;
+    width: 430px;
+    padding: 0 35px;
+    background-color: #F9F9F9;
+    border: none;
+    border-radius: 10px;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"] {
+    border-radius: 20px;
+    border: 2px solid #a0a0a0;
+}
+
+.form-select{
+    border-radius: 20px;
+    border: 2px solid #a0a0a0;
+}
+
+.btn-login {
+    height: 35px;
+    border-radius: 20px;
+    font-weight: 700;
+}
+
+.link {
+    color: #198754;
+    text-decoration: none;
+}
+
+.link:hover {
+    color: #198754;
+    text-decoration: none;
+}
+
+.btn-gmail {
+    height: 35px;
+    border: 2px solid rgb(224, 224, 224);
+    border-radius: 20px;
+    font-weight: 700;
+}
+
+.img-google {
+    height: 20px;
+    width: 20px;
+}
